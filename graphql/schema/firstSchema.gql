@@ -1,0 +1,13 @@
+module.exports = `
+  type Query {
+      hello: String
+      age: Int
+      heroes(id: Int!): Hero
+      person(idx: Int!): Person
+  }
+
+  type Person {
+    id: Int!
+    name: String
+  }
+`;

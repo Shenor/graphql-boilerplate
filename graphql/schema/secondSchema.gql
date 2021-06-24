@@ -1,0 +1,21 @@
+module.exports = `
+    type Hero {
+        id: Int!
+            name: String
+        username: String
+        address: Address
+    }
+
+    type Address {
+        street: String
+        suite: String
+        city: String
+        zipcode: String
+        geo: Geo
+    }
+
+    type Geo {
+        lat: Float,
+        lng: Float
+    }
+`;
